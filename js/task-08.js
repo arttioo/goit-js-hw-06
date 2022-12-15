@@ -15,4 +15,5 @@ function onFormSubmit(event) {
   } else {
     console.log(formData);
   }
+  form.reset();
 }
